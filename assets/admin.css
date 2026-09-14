@@ -1,0 +1,36 @@
+.image-radius-wrap .image-radius-control {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	max-width: 420px;
+}
+
+.image-radius-wrap .image-radius-control input[type="range"] {
+	flex: 1;
+	min-width: 180px;
+}
+
+.image-radius-preview {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 12px;
+}
+
+.image-radius-preview img {
+	width: 96px;
+	height: 96px;
+	object-fit: cover;
+	background: #dcdcde;
+	box-shadow: 0 0 0 1px #c3c4c7;
+}
+
+.image-radius-preview span {
+	color: #646970;
+	font-size: 13px;
+}
+
+.image-radius-wrap fieldset label {
+	display: inline-block;
+	margin: 4px 0;
+}
